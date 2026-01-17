@@ -5,13 +5,14 @@
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
+      "program": "${workspaceFolder}/src/app/filehandling/build/outDebug",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Projects/Encrypter/src/app/filehandling",
-      "program": "c:/Projects/Encrypter/src/app/filehandling/build/Debug/outDebug",
+      "cwd": "${workspaceFolder}/src/app/filehandling",
+      "environment": [],
+      "externalConsole": false,
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
